@@ -1,0 +1,34 @@
+{
+  "name": "screen-type",
+  "version": "0.0.0",
+  "description": "Simple util to detect the screen-type.",
+  "license": "MIT",
+  "repository": "hemanth/screen-type",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "phantom": "mochify ./test.js",
+    "test": "npm run phantom"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "screen-type",
+    "hd",
+    "retina",
+    "ultraHD",
+    "quadHD",
+    "standard",
+    "retina"
+  ],
+  "devDependencies": {
+    "mochify": "^2.13.0"
+  }
+}
